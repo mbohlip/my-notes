@@ -1,0 +1,26 @@
+A=> Creating an ssh keypair on windows computer to allow us clone our GitHub repositories
+
+1- Open PowerShell
+2- Type the command "ssh-keygen -t rsa -b 2048"  {-t for type, -b for byte}
+3- Specify where you want to save your keypair {default directory = C:\Users\<profile name>/.ssh/id_rsa)}
+4- Enter passphrase, and repeat again
+- Done
+
+In (3) above, you will have 2 files (a public and private key)
+
+--------------------------------------------------------------------------
+
+B=> Upload public ssh keypair to GitHub
+
+1- open the directory of A(3) above
+2- open the public key {id_pub} with notepad, select and copy all the content
+3- Login to GitHub account
+4- Goto your profile logo at top right location of the screen, select settings
+5- Select "SSH and GPG keys"
+6- click on "New SSH key"
+7- In the title field, give a name
+8- In the key field, paste the content copied in B(2) above
+9- Click on "Add SSH key"
+
+With this we can now clone repositories in our GitHub account
+

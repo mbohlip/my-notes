@@ -1,0 +1,9 @@
+=> How to push changes of a Github Local repository to a remote repository
+
+- After cloning a GitHub repository to your computer locally
+- Open the command prompt {can also be powershell for windows}
+- change to the directory of the repository cloned on your computer
+- run "git add -a" {this will stage all the changes made to the local repository}
+- run "git commit -m <enter your message>" {-m = message, this will commit all the changes in our staging area}
+- finally run "git push" this will push all the changes to the remote repository
+Done.
